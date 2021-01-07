@@ -19,7 +19,7 @@ public class ApptDao implements IStorage<IStorable>{
 	
 
 	
-
+//Added a comment
 	@Override//////This method persists data into the All_appointment table.
 	public void enterDataInBookingTable(Appointment appointment) {
 		
