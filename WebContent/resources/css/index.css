@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.container {
+	font-family: 'IBM Plex Sans', sans-serif;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  font-size:12px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: red;
+  font-size:18px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: red;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: red;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: red;
+  transform: translate(-50%, -50%);
+}
+
+/* 88888icons8888888 */
+
+.outer{
+	background:#F8F9FA;
+	margin-left: 40px;
+	margin-right: 40px;	
+}
+
+
+.icons{
+  position-top: 200px;
+  font-size: 25px;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  text-decoration: none;  
+  background:#F8F9FA;
+	
+}
+
+.fa {
+  background:#F8F9FA;
+  padding: 20px;
+  font-size: 20px;
+  width: 25px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  float:left;
+ 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+ 
+}
+.fa-number{
+	font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	float: right;
+	width:250px;
+	font-size: 16px;
+	color:black
+}
+.fa-email{
+	font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 16px;
+	float: right;
+	width:230px;
+	color:black
+}
